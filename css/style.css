@@ -80,7 +80,9 @@ body {
 }
 .top-header__logo{
 }
-.top-header__image{	
+.top-header__image{
+	max-width: 174px;
+	max-height: 41px;
 }
 .top-header__logo:not(:last-child) {
 	margin: 0px 15px 0px 0px;
