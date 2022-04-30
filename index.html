@@ -1,143 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Lesson 17 - Курс Зима 2022(ДЗ)</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 17 - Курс Зима 2022(ДЗ)</title>
+	</head>
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<div class="header__top top-header">
-					<a href="#" class="top-header__logo">
-						<img src="img/icons/logo.svg" alt="logo-text" class="top-header__image">
-					</a>
-					<div class="top-header__items">
-						<div class="top-header__item">
-							<div class="timetable-header">
-								<h2 class="timetable-header__title">BOARDING HOURS</h2>
-								<div class="timetable-header__text">Mon - Sat: 7:00 am - 6:00 pm</div>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__top top-header">
+						<a href="#" class="top-header__logo">
+							<img src="img/icons/logo.svg" alt="logo-text" class="top-header__image">
+							<img src="img/icons/logo-icon.svg" alt="logo-icon" class="top-header__picture">
+						</a>
+						<div class="top-header__items">
+							<div class="top-header__item">
+								<div class="timetable-header">
+									<h2 class="timetable-header__title">BOARDING HOURS</h2>
+									<div class="timetable-header__text">Mon - Sat: 7:00 am - 6:00 pm</div>
+								</div>
+							</div>
+							<div class="top-header__item">
+								<a href="tel:555" class="tel-header">
+									<img src="img/icons/phone.svg" alt="phone" class="tel-header__image">
+									<h2 class="tel-header__title">CALL US</h2>
+									<div class="tel-header__number">(555) Pup-Cares</div>
+								</a>
+							</div>
+							<div class="top-header__item">
+								<a href="#" class="button-header">Make an Appointment</a>
 							</div>
 						</div>
-						<div class="top-header__item">
-							<a href="tel:555" class="tel-header">
-								<h2 class="tel-header__title">CALL US</h2>
-								<div class="tel-header__number">(555) Pup-Cares</div>
+					</div>
+					<div class="header__bottom bottom-header">
+						<nav class="bottom-header__menu menu">
+							<ul class="menu__items">
+								<li class="menu__item">
+									<select name="services" class="menu__select">
+										<option value="1" selected="selected" class="menu__option">Services</option>
+										<option value="2" class="menu__option">Пункт №2</option>
+										<option value="3" class="menu__option">Пункт №3</option>
+										<option value="4" class="menu__option">Пункт №4</option>
+									</select>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link">Specials</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Facilities</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Reviews</a></li>
+								<li class="menu__item">
+									<select name="shop" class="menu__select">
+										<option value="1" selected="selected" class="menu__option">Shop</option>
+										<option value="2" class="menu__option">Пункт №2</option>
+										<option value="3" class="menu__option">Пункт №3</option>
+										<option value="4" class="menu__option">Пункт №4</option>
+									</select>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+							</ul>
+						</nav>
+						<div class="bottom-header__icons">
+							<a href="#" class="bottom-header__search">
+								<img src="img/icons/search.svg" alt="search" class="bottom-header__image">
+							</a>
+							<a href="#" class="bottom-header__cart">
+								<img src="img/icons/cart.svg" alt="cart" class="bottom-header__image">
+								<span class="bottom-header__span">2</span>
 							</a>
 						</div>
-						<div class="top-header__item">
-							<a href="#" class="button-header">Make an Appointment</a>
-						</div>
 					</div>
 				</div>
-				<div class="header__bottom bottom-header">
-					<nav class="bottom-header__menu menu">
-						<ul class="menu__items">
-							<li class="menu__item">
-								<select name="services" class="menu__select">
-									<option value="1" selected="selected" class="menu__option">Services</option>
-									<option value="2" class="menu__option">Пункт №2</option>
-									<option value="3" class="menu__option">Пункт №3</option>
-									<option value="4" class="menu__option">Пункт №4</option>
-								</select>
-							</li>
-							<li class="menu__item"><a href="#" class="menu__link">Specials</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Facilities</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Reviews</a></li>
-							<li class="menu__item">
-								<select name="shop" class="menu__select">
-									<option value="1" selected="selected" class="menu__option">Shop</option>
-									<option value="2" class="menu__option">Пункт №2</option>
-									<option value="3" class="menu__option">Пункт №3</option>
-									<option value="4" class="menu__option">Пункт №4</option>
-								</select>
-							</li>
-							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-						</ul>
-					</nav>
-					<div class="bottom-header__icons">
-						<a href="#" class="bottom-header__search">
-							<img src="img/icons/search.svg" alt="search" class="bottom-header__image">
-						</a>
-						<a href="#" class="bottom-header__cart">
-							<img src="img/icons/cart.svg" alt="cart" class="bottom-header__image">
-							<span class="bottom-header__span">2</span>
-						</a>
+			</header>
+			<main class="main">
+				<div class="main__home-page home-page">
+					<div class="home-page__container">
+						<h1 class="home-page__title">Premier dog boarding, daycare & day spa</h1>
+						<a href="#" class="home-page__button button">Make an Appointment</a>
 					</div>
 				</div>
-			</div>
-		</header>
-		<main class="main">
-			<div class="main__home-page home-page">
-				<div class="home-page__container">
-					<h1 class="home-page__title">Premier dog boarding, daycare & day spa</h1>
-					<a href="#" class="home-page__button button">Make an Appointment</a>
-				</div>
-			</div>
-			<div class="main__who-we-are who-we-are">
-				<div class="who-we-are__container">
-					<div class="who-we-are__body">
-						<div class="who-we-are__header title-block">
-							<h2 class="title-block__subtitle">Who we are</h2>
-							<h3 class="title-block__title">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
-						</div>
-						<p class="who-we-are__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-						<img src="img/who-we-are/dog.jpg" alt="dog" class="who-we-are__image">
-					</div>
-				</div>
-			</div>
-			<div class="main__promise promise">
-				<div class="promise__container">
-					<div class="promise__header title-block title-block">
-						<h2 class="title-block__subtitle title-block__subtitle_black">OUR PROMISE TO YOU</h2>
-						<h3 class="title-block__title title-block__title_black">Sed perspiciatis omnis iste natus</h3>
-					</div>
-					<div class="promise__items">
-						<div class="promise__item item-promise">
-							<img src="img/promise/love.svg" alt="love&care" class="item-promise__image">
-							<div class="item-promise__body">
-								<h4 class="item-promise__title">24/7 Love & Care</h4>
-								<div class="item-promise__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+				<div class="main__who-we-are who-we-are">
+					<div class="who-we-are__container">
+						<div class="who-we-are__body">
+							<div class="who-we-are__header title-block">
+								<h2 class="title-block__subtitle">Who we are</h2>
+								<h3 class="title-block__title">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
 							</div>
+							<p class="who-we-are__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+							<img src="img/who-we-are/dog.jpg" alt="dog" class="who-we-are__image">
 						</div>
-						<div class="promise__item item-promise">
-							<img src="img/promise/veterinarian.svg" alt="veterinarian" class="item-promise__image">
-							<div class="item-promise__body">
-								<h4 class="item-promise__title">On-site Veterinarian</h4>
-								<div class="item-promise__text">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</div>
+					</div>
+				</div>
+				<div class="main__promise promise">
+					<div class="promise__container">
+						<div class="promise__header title-block title-block">
+							<h2 class="title-block__subtitle title-block__subtitle_black">OUR PROMISE TO YOU</h2>
+							<h3 class="title-block__title title-block__title_black">Sed perspiciatis omnis iste natus</h3>
+						</div>
+						<div class="promise__items">
+							<div class="promise__item item-promise">
+								<img src="img/promise/love.svg" alt="love&care" class="item-promise__image">
+								<div class="item-promise__body">
+									<h4 class="item-promise__title">24/7 Love & Care</h4>
+									<div class="item-promise__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+								</div>
 							</div>
-						</div>
-						<div class="promise__item item-promise">
-							<img src="img/promise/stream.svg" alt="stream" class="item-promise__image">
-							<div class="item-promise__body">
-								<h4 class="item-promise__title">Live-stream Cameras</h4>
-								<div class="item-promise__text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.</div>
+							<div class="promise__item item-promise">
+								<img src="img/promise/veterinarian.svg" alt="veterinarian" class="item-promise__image">
+								<div class="item-promise__body">
+									<h4 class="item-promise__title">On-site Veterinarian</h4>
+									<div class="item-promise__text">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</div>
+								</div>
+							</div>
+							<div class="promise__item item-promise">
+								<img src="img/promise/stream.svg" alt="stream" class="item-promise__image">
+								<div class="item-promise__body">
+									<h4 class="item-promise__title">Live-stream Cameras</h4>
+									<div class="item-promise__text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="main__appointment appointment">
-				<div class="appointment__container">
-					<div class="appointment__items">
-						<div class="appointment__item">
-							<div class="appointment__picture"><img src="img/appointment/puppy.png" alt="puppy" class="appointment__image"></div>
-						</div>
-						<div class="appointment__body">
-							<h2 class="appointment__title">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
-							<a href="#" class="appointment__button button">Make an Appointment</a>
+				<div class="main__appointment appointment">
+					<div class="appointment__container">
+						<div class="appointment__items">
+							<div class="appointment__item">
+								<div class="appointment__picture"><img src="img/appointment/puppy.png" alt="puppy" class="appointment__image"></div>
+							</div>
+							<div class="appointment__body">
+								<h2 class="appointment__title">Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+								<a href="#" class="appointment__button button">Make an Appointment</a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</main>
-		<footer class="footer">подвал</footer>
-	</div>
-</body>
+			</main>
+			<footer class="footer">подвал</footer>
+		</div>
+	</body>
 
 </html>
